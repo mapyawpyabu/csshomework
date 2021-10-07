@@ -1,0 +1,203 @@
+:root {
+  --primary: #c27b53;
+  --secondary: #143582;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+	position: relative;
+}
+
+.textwhite{
+	color: white;
+}
+
+.logo{
+	position: absolute;
+	top: 4%;
+	left: 10%;
+}
+
+.nav{
+	position: absolute;
+	top: 4%;
+	right: 10%;
+}
+
+.centertext{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+a{
+	padding:10px;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: var(--primary);
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 35px;
+}
+
+.textprimary{
+	color: var(--primary);
+}
+.textsecondary{
+	color: var(--secondary);
+}
+.textaligncenter{
+	text-align: center;
+	padding: 20px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/*about tab*/
+.aboutTextPhoto{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+.divinline{
+	display: inline;
+}
+
+.tablecontainer{
+	display: table;
+	width: 100%;
+}
+.tablerow{
+	display: table-row;
+}
+.tablecell{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.profile{
+	border-radius: 50%;
+	border: 1px var(--primary) solid;
+}
+p.about{
+	color: gray;
+	text-align: center;
+}
+
+.mybartext{
+	font-weight: bold;
+	color: var(--secondary);
+	padding: 5px;
+	padding-top: 25px;
+}
+
+.myProgress {
+    width: 100%;
+    background-color: #bbbbbb;
+}
+
+.myBar {
+  width: 50%;
+  height: 20px;
+  background-color: var(--secondary);
+}
+
+/*work*/
+.work{
+	background-color: var(--secondary);
+}
+
+p.work{
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-bottom: 50px;
+	color: white;
+	text-align: center;
+}
+
+.worklink{
+	padding-right: 200px;
+	text-align: right;
+}
+
+img.work{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.imagecenter1{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+.imagecenter2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+.workimg{
+	width: 180px;
+}
+
+/*service*/
+p.service{
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-bottom: 50px;
+	color: gray;
+	text-align: center;
+}
+
+p.servicesubtitle{
+	font-size: 1.5em;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+p.servicesubtext{
+	color: gray;
+	text-align: center;
+}
+
+
+/*contact*/
+input[type=text]{
+	padding: 8px;
+	width: 90%;
+	height: 30px;
+	background-color: var(--secondary);
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	outline: none;
+	color: white;
+	font-size: 1.2em;
+}
+
+.colspan{
+	column-span: 2;
+}
+a.contact{
+	font-size: 16px;
+}
